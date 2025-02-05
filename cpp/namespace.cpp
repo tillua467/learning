@@ -28,5 +28,9 @@ int main(){
     std::cout << first::x << std::endl; // Prints first x
     std::cout << dumb::y << std::endl;  // Prints dumb x
     std::cout << y << std::endl;
+
+    // we can also use this namespace like this
+    using std::cout;
+    cout << "And like this we don't need to add std for only cout" << std::endl;
     return 0;
 }
