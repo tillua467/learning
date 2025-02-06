@@ -14,6 +14,7 @@ int main(){
     std::cout << "Hello " << name << "!" << std::endl;
     // but it has a flaw if we use spaces it wont take it
     // for that we use getline function
+    // but we also need to remove the white space that cin leave so we use con>>std::ws
 
     std::cout << "And your full name is?" << std::endl;
 
